@@ -1,0 +1,30 @@
+[
+  {
+    "testCaseId": "TC001",
+    "scenario": "Valid Login",
+    "username": "Admin",
+    "password": "admin123",
+    "expectedResult": "success"
+  },
+  {
+    "testCaseId": "TC002",
+    "scenario": "Invalid Username",
+    "username": "InvalidUser",
+    "password": "admin123",
+    "expectedResult": "failure"
+  },
+  {
+    "testCaseId": "TC003",
+    "scenario": "Invalid Password",
+    "username": "Admin",
+    "password": "WrongPassword",
+    "expectedResult": "failure"
+  },
+  {
+    "testCaseId": "TC004",
+    "scenario": "Empty Credentials",
+    "username": "",
+    "password": "",
+    "expectedResult": "failure"
+  }
+]
