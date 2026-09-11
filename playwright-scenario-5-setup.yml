@@ -1,0 +1,15 @@
+- generic [ref=f1e3] [box=0,100,1270,657]:
+  - generic [box=0,100,1270,0]:
+    - complementary [ref=f1e4] [box=0,0,256,720]:
+      - navigation "Sidepanel" [ref=f1e5] [box=0,0,256,720]
+    - banner [ref=f1e110] [box=0,0,1270,100]:
+      - generic [ref=f1e111] [box=0,0,1270,66]
+      - navigation "Topbar Menu" [ref=f1e130] [box=304,74,918,36]
+  - generic [ref=f1e152] [box=256,100,1014,657]:
+    - generic [ref=f1e155] [box=304,156,918,424]:
+      - heading "Apply Leave" [level=6] [ref=f1e156] [box=329,181,868,21]
+      - separator [ref=f1e157] [box=329,210,868,1]
+      - generic [ref=f1e158] [box=329,219,868,336]
+    - generic [ref=f1e209] [box=256,704,1014,53]:
+      - paragraph [ref=f1e210] [box=304,704,918,17]: OrangeHRM OS 5.9
+      - paragraph [ref=f1e211] [box=304,721,918,17]
