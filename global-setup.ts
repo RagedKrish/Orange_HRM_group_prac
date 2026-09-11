@@ -14,7 +14,7 @@ async function globalSetup(config: FullConfig): Promise<void> {
 
   await loginPage.navigate();
   await loginPage.login('Admin', 'admin123');
-  await expect(loginPage.dashboardHeading).toBeVisible();
+  await page.waitForURL(/\/web\/index\.php\/dashboard\/index$/, { timeout: 15000 });
   await context.storageState({ path: storagePath });
 
   await browser.close();
