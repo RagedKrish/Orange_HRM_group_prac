@@ -1,0 +1,23 @@
+{
+  "name": "orange_hrm_group_prac",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RagedKrish/Orange_HRM_group_prac.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/RagedKrish/Orange_HRM_group_prac/issues"
+  },
+  "homepage": "https://github.com/RagedKrish/Orange_HRM_group_prac#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^22.20.2"
+  }
+}
