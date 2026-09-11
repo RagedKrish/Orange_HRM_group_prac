@@ -1,0 +1,19 @@
+[
+  {
+    "testCaseId": "S02-T01",
+    "module": "Admin",
+    "username": "Admin",
+    "status": "Enabled"
+  },
+  {
+    "testCaseId": "S02-T02",
+    "module": "PIM",
+    "employeeName": "Chaitrali L Kumar"
+  },
+  {
+    "testCaseId": "S02-T03",
+    "module": "Leave",
+    "employeeName": "Chaitrali L Kumar",
+    "status": "Pending Approval"
+  }
+]
