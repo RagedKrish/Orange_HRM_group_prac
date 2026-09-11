@@ -13,7 +13,10 @@ export class LoginPage {
     this.usernameInput = page.locator('input[name="username"]');
     this.passwordInput = page.locator('input[name="password"]');
     this.loginButton = page.getByRole('button', { name: 'Login' });
-    this.dashboardHeading = page.getByRole('heading', { name: 'Dashboard' });
+    this.dashboardHeading = page
+      .getByRole('heading', { name: 'Dashboard' })
+      .or(page.getByRole('link', { name: 'Dashboard', exact: true }))
+      .first();
     this.loginError = page.getByText(/Invalid credentials|Required/i).first();
   }
 

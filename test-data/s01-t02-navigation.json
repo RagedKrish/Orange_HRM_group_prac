@@ -1,0 +1,30 @@
+[
+  {
+    "testCaseId": "S01-T02",
+    "scenario": "Navigate from Dashboard to requested modules",
+    "item": "Admin",
+    "expectedHeading": "System Users",
+    "expectedUrl": "/web/index.php/admin/viewSystemUsers"
+  },
+  {
+    "testCaseId": "S01-T02",
+    "scenario": "Navigate from Dashboard to requested modules",
+    "item": "PIM",
+    "expectedHeading": "Employee Information",
+    "expectedUrl": "/web/index.php/pim/viewEmployeeList"
+  },
+  {
+    "testCaseId": "S01-T02",
+    "scenario": "Navigate from Dashboard to requested modules",
+    "item": "Leave",
+    "expectedHeading": "Leave",
+    "expectedUrl": "/web/index.php/leave/viewLeaveModule"
+  },
+  {
+    "testCaseId": "S01-T02",
+    "scenario": "Navigate from Dashboard to requested modules",
+    "item": "My Info",
+    "expectedHeading": "Personal Details",
+    "expectedUrl": "/web/index.php/pim/viewPersonalDetails/empNumber/7"
+  }
+]
