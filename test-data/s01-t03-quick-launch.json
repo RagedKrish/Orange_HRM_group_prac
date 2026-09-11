@@ -1,0 +1,16 @@
+[
+  {
+    "testCaseId": "S01-T03",
+    "scenario": "Use Dashboard Quick Launch",
+    "item": "Leave List",
+    "expectedHeading": "Leave List",
+    "expectedUrl": "/web/index.php/leave/viewLeaveList"
+  },
+  {
+    "testCaseId": "S01-T03",
+    "scenario": "Use Dashboard Quick Launch",
+    "item": "Apply Leave",
+    "expectedHeading": "Apply Leave",
+    "expectedUrl": "/web/index.php/leave/applyLeave"
+  }
+]
